@@ -17,7 +17,7 @@ const App = () => {
 
   return (
     <div>
-      <Router>
+      <Router basename="/snewz">
         <NavBar />
         <LoadingBar height={3} color="#f11946" progress={progress} />
         <Routes>
